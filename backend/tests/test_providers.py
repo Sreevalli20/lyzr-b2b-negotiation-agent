@@ -107,5 +107,5 @@ class TestMockLyzrProvider:
 
     async def test_nonexistent_agent(self, provider: MockLyzrProvider) -> None:
         """Test error handling for nonexistent agent."""
-        with pytest.raises(ValueError, match="Agent not found"):
+        with pytest.raises(ValueError, match="Agent .* not found"):
             await provider.execute_agent("nonexistent", {})
