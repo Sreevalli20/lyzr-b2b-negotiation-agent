@@ -4,7 +4,6 @@ PHI redaction service.
 This module provides business logic for PHI detection and redaction.
 """
 
-
 from backend.core.logging_config import get_logger
 from backend.core.providers.base import LLMProvider
 from backend.dependencies.providers import get_llm_provider

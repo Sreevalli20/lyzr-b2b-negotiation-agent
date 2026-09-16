@@ -4,7 +4,6 @@ Eligibility assessment service.
 This module provides business logic for patient eligibility assessment.
 """
 
-
 from backend.core.logging_config import get_logger
 from backend.core.providers.base import LyzrProvider
 from backend.dependencies.providers import get_lyzr_provider
