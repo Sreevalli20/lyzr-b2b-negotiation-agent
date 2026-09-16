@@ -1,0 +1,138 @@
+{
+  "protocol_id": "PROTOCOL_DIAB_2024_001",
+  "protocol_number": "DIAB-2024-001",
+  "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Novel Antidiabetic Agent X in Patients with Type 2 Diabetes Mellitus",
+  "phase": "Phase 3",
+  "therapeutic_area": "Endocrinology/Diabetes",
+  "inclusion_criteria": [
+    {
+      "criterion_id": "INC_001",
+      "description": "Age 18-75 years inclusive",
+      "category": "Demographics",
+      "required": true
+    },
+    {
+      "criterion_id": "INC_002",
+      "description": "Diagnosis of Type 2 Diabetes Mellitus for at least 6 months",
+      "category": "Diagnosis",
+      "required": true
+    },
+    {
+      "criterion_id": "INC_003",
+      "description": "HbA1c between 7.0% and 10.0% inclusive",
+      "category": "Laboratory",
+      "required": true
+    },
+    {
+      "criterion_id": "INC_004",
+      "description": "BMI between 25 and 40 kg/m² inclusive",
+      "category": "Anthropometric",
+      "required": true
+    },
+    {
+      "criterion_id": "INC_005",
+      "description": "Stable antidiabetic medication regimen for at least 3 months prior to screening",
+      "category": "Medication",
+      "required": true
+    },
+    {
+      "criterion_id": "INC_006",
+      "description": "Willing and able to provide written informed consent",
+      "category": "Consent",
+      "required": true
+    }
+  ],
+  "exclusion_criteria": [
+    {
+      "criterion_id": "EXC_001",
+      "description": "Type 1 Diabetes Mellitus",
+      "category": "Diagnosis",
+      "severity": "critical"
+    },
+    {
+      "criterion_id": "EXC_002",
+      "description": "Severe renal impairment (eGFR < 30 mL/min/1.73 m²)",
+      "category": "Renal",
+      "severity": "critical"
+    },
+    {
+      "criterion_id": "EXC_003",
+      "description": "Active cardiovascular disease including myocardial infarction, unstable angina, or stroke within 6 months",
+      "category": "Cardiovascular",
+      "severity": "critical"
+    },
+    {
+      "criterion_id": "EXC_004",
+      "description": "Pregnant or breastfeeding, or planning pregnancy during study period",
+      "category": "Reproductive",
+      "severity": "critical"
+    },
+    {
+      "criterion_id": "EXC_005",
+      "description": "History of severe hypoglycemia requiring medical assistance within 6 months",
+      "category": "Safety",
+      "severity": "high"
+    },
+    {
+      "criterion_id": "EXC_006",
+      "description": "Known hypersensitivity to study drug or its excipients",
+      "category": "Allergy",
+      "severity": "high"
+    },
+    {
+      "criterion_id": "EXC_007",
+      "description": "Active liver disease or ALT > 3x upper limit of normal",
+      "category": "Hepatic",
+      "severity": "high"
+    }
+  ],
+  "timeline": {
+    "total_duration_weeks": 24,
+    "total_visits": 8,
+    "visit_frequency": "Every 3-4 weeks",
+    "screening_period_weeks": 4,
+    "treatment_period_weeks": 24,
+    "follow_up_period_weeks": 4
+  },
+  "endpoints": {
+    "primary_endpoint": "Change in HbA1c from baseline to Week 24",
+    "secondary_endpoints": [
+      "Proportion of patients achieving HbA1c < 7.0% at Week 24",
+      "Change in fasting plasma glucose from baseline to Week 24",
+      "Change in body weight from baseline to Week 24",
+      "Incidence of hypoglycemic events"
+    ],
+    "exploratory_endpoints": [
+      "Change in lipid profile",
+      "Quality of life measures",
+      "Biomarker analysis"
+    ]
+  },
+  "safety_requirements": {
+    "required_lab_tests": [
+      "HbA1c",
+      "Fasting plasma glucose",
+      "Renal function (eGFR, serum creatinine)",
+      "Liver function (ALT, AST)",
+      "Lipid profile",
+      "Complete blood count"
+    ],
+    "monitoring_frequency": "Every visit",
+    "stopping_rules": [
+      "ALT or AST > 5x ULN",
+      "eGFR < 30 mL/min/1.73 m²",
+      "Severe hypoglycemia requiring third-party assistance",
+      "Pregnancy"
+    ],
+    "contraindications": [
+      "Severe renal impairment",
+      "Active liver disease",
+      "Pregnancy",
+      "History of diabetic ketoacidosis"
+    ]
+  },
+  "target_enrollment": 500,
+  "sponsor": "PharmaCorp Inc.",
+  "version": "1.0",
+  "effective_date": "2024-01-01"
+}

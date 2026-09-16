@@ -1,0 +1,139 @@
+{
+  "report_id": "LAB_2024_001",
+  "patient_id": "PATIENT_001",
+  "report_date": "2024-01-10",
+  "ordering_physician": "Dr. Smith",
+  "laboratory": "Central Medical Laboratory",
+  "specimen_collection_date": "2024-01-10",
+  "specimen_type": "Blood",
+  "fasting_status": "Yes (8 hours)",
+  "test_results": [
+    {
+      "test_name": "Hemoglobin A1c",
+      "test_code": "4548-4",
+      "value": "8.2",
+      "unit": "%",
+      "reference_range": "4.0-5.6",
+      "is_abnormal": true,
+      "clinical_significance": "Elevated - indicates suboptimal glycemic control"
+    },
+    {
+      "test_name": "Fasting Blood Glucose",
+      "test_code": "2345-7",
+      "value": "142",
+      "unit": "mg/dL",
+      "reference_range": "70-99",
+      "is_abnormal": true,
+      "clinical_significance": "Elevated - consistent with diabetes"
+    },
+    {
+      "test_name": "Estimated Glomerular Filtration Rate",
+      "test_code": "33914-3",
+      "value": "58",
+      "unit": "mL/min/1.73 m²",
+      "reference_range": ">=90",
+      "is_abnormal": true,
+      "clinical_significance": "Mild to moderate reduction - Stage 3 CKD"
+    },
+    {
+      "test_name": "Serum Creatinine",
+      "test_code": "2160-0",
+      "value": "1.1",
+      "unit": "mg/dL",
+      "reference_range": "0.6-1.1",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "Blood Urea Nitrogen",
+      "test_code": "3094-0",
+      "value": "18",
+      "unit": "mg/dL",
+      "reference_range": "7-20",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "Alanine Aminotransferase",
+      "test_code": "1742-6",
+      "value": "28",
+      "unit": "U/L",
+      "reference_range": "7-35",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "Aspartate Aminotransferase",
+      "test_code": "1920-8",
+      "value": "24",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "Total Cholesterol",
+      "test_code": "2093-3",
+      "value": "198",
+      "unit": "mg/dL",
+      "reference_range": "<200",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "LDL Cholesterol",
+      "test_code": "18262-8",
+      "value": "118",
+      "unit": "mg/dL",
+      "reference_range": "<100",
+      "is_abnormal": true,
+      "clinical_significance": "Slightly elevated"
+    },
+    {
+      "test_name": "HDL Cholesterol",
+      "test_code": "2085-9",
+      "value": "52",
+      "unit": "mg/dL",
+      "reference_range": ">40",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "Triglycerides",
+      "test_code": "2571-8",
+      "value": "140",
+      "unit": "mg/dL",
+      "reference_range": "<150",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "Complete Blood Count - Hemoglobin",
+      "test_code": "718-7",
+      "value": "13.8",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "Complete Blood Count - White Blood Cell Count",
+      "test_code": "6645-2",
+      "value": "6.8",
+      "unit": "x10^3/μL",
+      "reference_range": "4.5-11.0",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    },
+    {
+      "test_name": "Complete Blood Count - Platelet Count",
+      "test_code": "777-3",
+      "value": "245",
+      "unit": "x10^3/μL",
+      "reference_range": "150-400",
+      "is_abnormal": false,
+      "clinical_significance": "Within normal limits"
+    }
+  ],
+  "comments": "Patient is in stable condition. Mild renal impairment noted. Recommend continued monitoring of renal function."
+}

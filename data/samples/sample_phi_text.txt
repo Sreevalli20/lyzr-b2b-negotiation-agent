@@ -1,0 +1,19 @@
+Patient Medical Record
+
+Patient Name: Jane Smith
+Date of Birth: March 15, 1972
+Address: 123 Main Street, Anytown, CA 90210
+Phone: (555) 123-4567
+Email: jane.smith@email.com
+Social Security Number: 123-45-6789
+
+Medical History:
+Patient presents with Type 2 Diabetes Mellitus diagnosed in March 2018. Current medications include Metformin 1000 mg twice daily and Lisinopril 10 mg once daily. Patient reports good medication adherence.
+
+Recent lab results show HbA1c of 8.2%, indicating suboptimal glycemic control. Fasting blood glucose was 142 mg/dL. Renal function shows mild impairment with eGFR of 58 mL/min/1.73 m².
+
+Patient has no known drug allergies except Penicillin. No history of cardiovascular disease, severe hypoglycemia, or diabetic ketoacidosis.
+
+Blood pressure is well controlled at 132/82 mmHg. BMI is 31.5 kg/m².
+
+Patient is interested in participating in clinical trial for new diabetes medication.

@@ -1,0 +1,116 @@
+{
+  "demographics": {
+    "patient_id": "PATIENT_001",
+    "age": 52,
+    "age_group": "45-54",
+    "gender": "Female",
+    "ethnicity": "Caucasian"
+  },
+  "conditions": [
+    {
+      "code": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications",
+      "severity": "moderate",
+      "onset_date": "2018-03-15"
+    },
+    {
+      "code": "I10",
+      "description": "Essential (primary) hypertension",
+      "severity": "mild",
+      "onset_date": "2019-07-22"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "1000 mg",
+      "frequency": "Twice daily",
+      "start_date": "2018-04-01",
+      "is_stable": true
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily",
+      "start_date": "2019-08-01",
+      "is_stable": true
+    }
+  ],
+  "lab_results": [
+    {
+      "test_name": "Hemoglobin A1c",
+      "test_code": "4548-4",
+      "value": "8.2",
+      "unit": "%",
+      "reference_range": "4.0-5.6",
+      "is_abnormal": true,
+      "test_date": "2024-01-10"
+    },
+    {
+      "test_name": "Estimated Glomerular Filtration Rate",
+      "test_code": "33914-3",
+      "value": "58",
+      "unit": "mL/min/1.73 m²",
+      "reference_range": ">=90",
+      "is_abnormal": true,
+      "test_date": "2024-01-10"
+    },
+    {
+      "test_name": "Fasting Blood Glucose",
+      "test_code": "2345-7",
+      "value": "142",
+      "unit": "mg/dL",
+      "reference_range": "70-99",
+      "is_abnormal": true,
+      "test_date": "2024-01-10"
+    },
+    {
+      "test_name": "Alanine Aminotransferase",
+      "test_code": "1742-6",
+      "value": "28",
+      "unit": "U/L",
+      "reference_range": "7-35",
+      "is_abnormal": false,
+      "test_date": "2024-01-10"
+    },
+    {
+      "test_name": "Serum Creatinine",
+      "test_code": "2160-0",
+      "value": "1.1",
+      "unit": "mg/dL",
+      "reference_range": "0.6-1.1",
+      "is_abnormal": false,
+      "test_date": "2024-01-10"
+    }
+  ],
+  "vital_signs": [
+    {
+      "name": "Body Mass Index",
+      "value": 31.5,
+      "unit": "kg/m²",
+      "recorded_date": "2024-01-10"
+    },
+    {
+      "name": "Systolic Blood Pressure",
+      "value": 132,
+      "unit": "mmHg",
+      "recorded_date": "2024-01-10"
+    },
+    {
+      "name": "Diastolic Blood Pressure",
+      "value": 82,
+      "unit": "mmHg",
+      "recorded_date": "2024-01-10"
+    }
+  ],
+  "allergies": [
+    "Penicillin"
+  ],
+  "medical_history": [
+    "Type 2 Diabetes Mellitus diagnosed 2018",
+    "Hypertension diagnosed 2019",
+    "No history of cardiovascular disease",
+    "No history of severe hypoglycemia",
+    "No history of diabetic ketoacidosis"
+  ]
+}

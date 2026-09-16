@@ -1,16 +1,14 @@
 [project]
 name = "lyzr-b2b-negotiation-agent"
-version = "0.1.0"
+version = "1.0.0"
 description = "Governed Clinical Trial Patient Screening & Regulatory Audit Agent"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.32.0",
     "pydantic>=2.9.2",
     "pydantic-settings>=2.6.0",
-    "lyzr-sdk>=0.1.0",
-    "google-generativeai>=0.8.3",
     "python-dotenv>=1.0.1",
 ]
 
@@ -23,10 +21,14 @@ dev = [
     "black>=24.8.0",
     "isort>=5.13.2",
 ]
+ai = [
+    "lyzr-sdk>=0.1.0",
+    "google-generativeai>=0.8.3",
+]
 
 [tool.ruff]
 line-length = 100
-target-version = "py314"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "W", "UP"]
@@ -34,7 +36,7 @@ ignore = ["E501"]
 
 [tool.black]
 line-length = 100
-target-version = ["py314"]
+target-version = ["py312"]
 
 [tool.isort]
 profile = "black"
